@@ -1,0 +1,18 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #fff;
+}
