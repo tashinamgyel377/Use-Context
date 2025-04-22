@@ -7,7 +7,7 @@ import { ThemeProvider, useTheme } from './Components/Themetoggle'
 import './App.css' // for light/dark theme styles
 
 const AppContent = () => {
-  const user = 'Sonam'
+  const user = 'Tashi Namgyel'
   const [language, setLanguage] = useState('en')
   const { darkMode, toggleTheme } = useTheme()
 
